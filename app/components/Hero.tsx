@@ -15,7 +15,7 @@ const Hero = () => {
           transition={{ duration: 0.5 }}
           className="md:w-1/2 mb-8 md:mb-0"
         >
-          <Image src="/images/SwiftTechlogorb.png" alt="Company Logo" width={400} height={200} />
+          <Image src="/images/swifttechlogorb.png" alt="Company Logo" width={400} height={200} />
         </MotionDiv>
         <MotionDiv
           initial={{ opacity: 0, x: 100 }}
