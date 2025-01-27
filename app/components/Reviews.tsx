@@ -35,7 +35,7 @@ const Reviews = () => {
       setCurrentReview((prev) => (prev + 1) % reviews.length)
     }, 5000)
     return () => clearInterval(timer)
-  }, [])
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   return (
     <div className="py-16 bg-gray-50 dark:bg-gray-800">
@@ -52,7 +52,7 @@ const Reviews = () => {
               className="absolute inset-0 flex items-center justify-center"
             >
               <div className="bg-white dark:bg-gray-700 shadow-lg rounded-lg p-6 text-center">
-                <p className="text-gray-600 dark:text-gray-300 mb-4 text-lg">"{reviews[currentReview].comment}"</p>
+                <p className="text-gray-600 dark:text-gray-300 mb-4 text-lg">{reviews[currentReview].comment}</p>
                 <p className="font-semibold text-primary dark:text-white">{reviews[currentReview].name}</p>
               </div>
             </motion.div>

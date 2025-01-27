@@ -10,23 +10,26 @@ const PricingPage = () => {
     {
       title: "WordPress Landing Page",
       description: "Perfect for small businesses and startups",
-      price: "€150",
-      features: ["Custom WordPress theme", "Responsive design", "Basic SEO optimization", "Contact form integration"],
+      price: "€450",
+      features: ["Custom WordPress theme", "Responsive design", "Basic SEO optimization", "Contact form integration", "Standard 3 pages pricing", "Fastest of them all, one day setup"],
     },
     {
       title: "Custom Next.js Website",
-      description: "Ideal for growing businesses with specific needs",
-      price: "€300",
+      description: "Ideal for growing businesses and to take it a level further from your common wordpress page",
+      price: "€800",
       features: [
-        "Custom design with Next.js and React",
+        "Latest technologies with Next.js and React",
         "Advanced features and interactivity",
-        "Performance optimization",
-        "Integration with headless CMS",
+        "Peak performance indicators",
+        "Totally customizable design from scratch",
+        "Dedicated member from SwiftTech to contact at anytime",
+        "More functionalities, messages via email, contact, social network management, content creation",
+        "Depending on specifics, medium point in speed, from 3 days up to a week"
       ],
     },
     {
       title: "Custom Application",
-      description: "For businesses requiring complex solutions",
+      description: "For businesses requiring complex solutions and aplications",
       price: "Let's Talk",
       features: ["Fully custom web or mobile app", "E-commerce functionality", "Admin systems", "API integrations"],
     },
@@ -58,7 +61,7 @@ const PricingPage = () => {
                           className="w-4 h-4 mr-2 text-secondary"
                           fill="none"
                           stroke="currentColor"
-                          viewBox="0 0 24 24"
+                          viewBox="0 0 20 20"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>

@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import Image from "next/image"
-import { motion, useAnimation } from "framer-motion"
+import { motion } from "framer-motion"
 
 interface Project {
   id: number
@@ -19,7 +19,6 @@ interface VerticalSpinningCardProps {
 
 const VerticalSpinningCard: React.FC<VerticalSpinningCardProps> = ({ project, isActive, zIndex }) => {
   const [isHovered, setIsHovered] = useState(false)
-  const controls = useAnimation()
 
   const variants = {
     spin: {

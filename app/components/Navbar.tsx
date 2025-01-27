@@ -34,7 +34,7 @@ const Navbar = () => {
       <div className="max-w-6xl mx-auto px-4">
         <div className="flex justify-between items-center h-16">
           <Link href="/" className="flex items-center">
-            <span className="font-semibold text-primary dark:text-white text-lg">Your Logo</span>
+            <span className="font-semibold text-primary dark:text-white text-lg">SwiftTech</span>
           </Link>
           <div className="hidden md:flex items-center space-x-4">
             <NavLink href="/">Home</NavLink>

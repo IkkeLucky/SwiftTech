@@ -9,10 +9,10 @@ const Footer = () => {
           © {new Date().getFullYear()} Your Company Name. All rights reserved.
         </div>
         <div className="flex space-x-4">
-          <Link href="https://instagram.com" target="_blank" rel="noopener noreferrer">
+          <Link href="https://www.instagram.com/swift.tech.it/" target="_blank" rel="noopener noreferrer">
             <Instagram className="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition duration-300" />
           </Link>
-          <Link href="https://wa.me/yourphonenumber" target="_blank" rel="noopener noreferrer">
+          <Link href="https://wa.me/393313573136" target="_blank" rel="noopener noreferrer">
             <WhatsApp className="text-gray-500 dark:text-gray-400 hover:text-primary dark:hover:text-white transition duration-300" />
           </Link>
           <Link href="https://behance.net" target="_blank" rel="noopener noreferrer">
