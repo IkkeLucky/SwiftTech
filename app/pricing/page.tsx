@@ -11,27 +11,41 @@ const PricingPage = () => {
       title: "WordPress Landing Page",
       description: "Perfect for small businesses and startups",
       price: "€450",
-      features: ["Custom WordPress theme", "Responsive design", "Basic SEO optimization", "Contact form integration", "Standard 3 pages pricing", "Fastest of them all, one day setup"],
+      features: [
+        "Custom WordPress theme", 
+        "Responsive design", 
+        "Basic SEO optimization", 
+        "Contact form integration", 
+        "Standard 3 pages pricing", 
+        "Fastest of them all, one day setup",
+        
+      ],
     },
     {
       title: "Custom Next.js Website",
-      description: "Ideal for growing businesses and to take it a level further from your common wordpress page",
+      description: "More than your common Wordpress page",
       price: "€800",
       features: [
-        "Latest technologies with Next.js and React",
-        "Advanced features and interactivity",
+        "Latest tech with Next.js and React",
         "Peak performance indicators",
-        "Totally customizable design from scratch",
-        "Dedicated member from SwiftTech to contact at anytime",
-        "More functionalities, messages via email, contact, social network management, content creation",
-        "Depending on specifics, medium point in speed, from 3 days up to a week"
+        "Fully customizable design",
+        "Dedicated member from SwiftTech",
+        "More customizable functionalities",
+        "From 3 to 7 days fully functional"
       ],
     },
     {
       title: "Custom Application",
-      description: "For businesses requiring complex solutions and aplications",
+      description: "For businesses requiring complex apps",
       price: "Let's Talk",
-      features: ["Fully custom web or mobile app", "E-commerce functionality", "Admin systems", "API integrations"],
+      features: [
+        "Fully custom web or mobile app",
+        "Databases, users, authentication", 
+        "E-commerce functionality", 
+        "Appointment system functionality", 
+        "Admin systems, API integration", 
+        "Large projects, up to weeks or months",
+      ],
     },
   ]
 
@@ -61,7 +75,7 @@ const PricingPage = () => {
                           className="w-4 h-4 mr-2 text-secondary"
                           fill="none"
                           stroke="currentColor"
-                          viewBox="0 0 20 20"
+                          viewBox="0 0 24 24"
                           xmlns="http://www.w3.org/2000/svg"
                         >
                           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M5 13l4 4L19 7"></path>

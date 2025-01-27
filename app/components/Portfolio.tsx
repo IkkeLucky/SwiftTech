@@ -1,6 +1,7 @@
 "use client"
 
 import Image from "next/image"
+import Link from "next/link"
 import { motion } from "framer-motion"
 import Masonry from "react-masonry-css"
 
@@ -12,6 +13,7 @@ const Portfolio = () => {
       image: "/images/passarelladiosa.png?height=300&width=400",
       description: "A fully responsive e-commerce platform",
       height: 300,
+      link: "https://www.passarelladiosa.com/"
     },
     {
       id: 2,
@@ -19,6 +21,7 @@ const Portfolio = () => {
       image: "/images/bbgestore.png?height=400&width=400",
       description: "Management system and appointments",
       height: 400,
+      link: "https://bbgestore123gestore.vercel.app/"
     },
     {
       id: 3,
@@ -26,6 +29,7 @@ const Portfolio = () => {
       image: "/images/wordpressbb.png?height=250&width=400",
       description: "A smooth Wordpress website for an Italian company",
       height: 250,
+      link: "https://coopbarbarab.it/"
     },
     {
       id: 4,
@@ -33,6 +37,7 @@ const Portfolio = () => {
       image: "/images/stackpage.png?height=350&width=400",
       description: "A customizable portfolio platform to showcase the company tech stack",
       height: 350,
+      link: "https://barbarabapps.com/"
     },
     {
       id: 5,
@@ -40,6 +45,7 @@ const Portfolio = () => {
       image: "/images/maemories.png?height=450&width=400",
       description: "A stunning social network for an Italian company",
       height: 450,
+      link: "https://maemories.com/"
     },
     {
       id: 6,
@@ -47,6 +53,7 @@ const Portfolio = () => {
       image: "/images/casamientoapp.png?height=280&width=400",
       description: "Marriage app with appointment system and information about the ceremony",
       height: 280,
+      link: "https://web-production-ab65.up.railway.app/"
     },
   ]
 
@@ -72,6 +79,7 @@ const Portfolio = () => {
               whileHover={{ scale: 1.05 }}
               transition={{ duration: 0.3 }}
             >
+              <Link href={project.link} target="_blank" rel="noopener noreferrer">
               <Image
                 src={project.image || "/placeholder.svg"}
                 alt={project.title}
@@ -86,8 +94,12 @@ const Portfolio = () => {
                 <div className="text-center text-white p-4">
                   <h3 className="text-xl font-semibold mb-2">{project.title}</h3>
                   <p className="text-sm">{project.description}</p>
+                  <span className="mt-4 inline-block bg-white text-primary dark:bg-gray-900 dark:text-white px-4 py-2 rounded-full text-sm font-semibold hover:bg-opacity-90 transition-colors duration-300">
+                      View Project
+                  </span>
                 </div>
               </motion.div>
+              </Link>
             </motion.div>
           ))}
         </Masonry>

@@ -7,24 +7,22 @@ const Reviews = () => {
   const reviews = [
     {
       id: 1,
-      name: "Alice Johnson",
-      comment: "Excellent service! They delivered our website on time and exceeded our expectations.",
+      name: "Nathalie Feliciani",
+      comment: "Inoltre, sottolineo la sua puntualità nella consegna dei progetti, che ha contribuito in modo significativo al successo della nostra impresa",
     },
-    { id: 2, name: "Bob Williams", comment: "The team was very professional and responsive. Our app looks great!" },
+    { id: 2, 
+      name: "Bob Williams", 
+      comment: "The team was very professional and responsive. Our app looks great!" 
+    },
     {
       id: 3,
-      name: "Carol Davis",
-      comment: "We're very happy with our new e-commerce site. It's user-friendly and looks amazing.",
+      name: "Giorgio Koutsileos",
+      comment: "Buon lavoro su tutte le app, finora abbiamo visto tutte cose buone",
     },
     {
       id: 4,
-      name: "David Brown",
-      comment: "Outstanding work on our corporate website. It perfectly represents our brand.",
-    },
-    {
-      id: 5,
-      name: "Eva Martinez",
-      comment: "The mobile app they developed for us has significantly improved our customer engagement.",
+      name: "Nicolas y Victoria Sanchez",
+      comment: "Nos encanta nuestra aplicacion de Bodas! Muy buen servicio. Esperamos poder crear mas aplicaciones asi en el futuro",
     },
   ]
 

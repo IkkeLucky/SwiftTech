@@ -3,6 +3,7 @@
 import Image from "next/image"
 import { Button } from "@/components/ui/button"
 import { MotionDiv } from "./motion/MotionDiv"
+import Link from "next/link"
 
 const Hero = () => {
   return (
@@ -27,7 +28,7 @@ const Hero = () => {
             Our team of expert developers and designers bring your digital vision to life.
           </p>
           <Button variant="secondary" size="lg">
-            Get Started
+            <Link href="/pricing">Get Started</Link>
           </Button>
         </MotionDiv>
       </div>

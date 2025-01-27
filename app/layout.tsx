@@ -4,6 +4,7 @@ import { Inter } from "next/font/google"
 import Navbar from "./components/Navbar"
 import Footer from "./components/Footer"
 import { ThemeProvider } from "./contexts/ThemeContext"
+import { ToastProvider } from "@/components/ui/toast"
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} overflow-x-hidden`}>
         <ThemeProvider>
+          <ToastProvider>
           <Navbar />
           <div className="pt-16">
             {" "}
@@ -28,6 +30,7 @@ export default function RootLayout({
             <main>{children}</main>
           </div>
           <Footer />
+          </ToastProvider>
         </ThemeProvider>
       </body>
     </html>
