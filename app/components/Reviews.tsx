@@ -10,17 +10,13 @@ const Reviews = () => {
       name: "Nathalie Feliciani",
       comment: "Inoltre, sottolineo la sua puntualità nella consegna dei progetti, che ha contribuito in modo significativo al successo della nostra impresa",
     },
-    { id: 2, 
-      name: "Bob Williams", 
-      comment: "The team was very professional and responsive. Our app looks great!" 
-    },
     {
-      id: 3,
+      id: 2,
       name: "Giorgio Koutsileos",
       comment: "Buon lavoro su tutte le app, finora abbiamo visto tutte cose buone",
     },
     {
-      id: 4,
+      id: 3,
       name: "Nicolas y Victoria Sanchez",
       comment: "Nos encanta nuestra aplicacion de Bodas! Muy buen servicio. Esperamos poder crear mas aplicaciones asi en el futuro",
     },

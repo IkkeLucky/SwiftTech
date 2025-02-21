@@ -9,7 +9,7 @@ import { ToastProvider } from "@/components/ui/toast"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata: Metadata = {
-  title: "Your Software Company",
+  title: "SwiftTech",
   description: "We create websites and apps",
 }
 
