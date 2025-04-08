@@ -18,8 +18,8 @@ const PricingPage = () => {
         "Contact form integration", 
         "Standard 3 pages pricing", 
         "Fastest of them all, one day setup",
-        
       ],
+      purchaseLink: "https://buy.stripe.com/28o9AQfdv6N50mc288", // Add your payment link here
     },
     {
       title: "Custom Next.js Website",
@@ -33,6 +33,7 @@ const PricingPage = () => {
         "More customizable functionalities",
         "From 3 to 7 days fully functional"
       ],
+      purchaseLink: "https://buy.stripe.com/4gw8wM1mF3AT6KA289", // Add your payment link here
     },
     {
       title: "Custom Application",
@@ -46,6 +47,7 @@ const PricingPage = () => {
         "Admin systems, API integration", 
         "Large projects, up to weeks or months",
       ],
+      purchaseLink: null, // No purchase link for "Let's Talk" option
     },
   ]
 
@@ -85,22 +87,34 @@ const PricingPage = () => {
                     ))}
                   </ul>
                 </CardContent>
-                <CardFooter>
+                <CardFooter className="flex flex-col gap-2">
                   <Button
                     className="w-full bg-primary hover:bg-gray-700 text-white dark:bg-gray-900 dark:hover:bg-gray-700 dark:text-white"
                     asChild
                   >
-                    <Link href="/contact">Get Started</Link>
+                    <Link href="/contact">More Details</Link>
                   </Button>
+                  {option.purchaseLink && (
+                    <Button
+                      variant="outline"
+                      className="w-full text-primary border-primary hover:bg-primary hover:text-white"
+                      asChild
+                    >
+                      <Link href={option.purchaseLink} target="_blank" rel="noopener noreferrer">
+                        Buy your app now
+                      </Link>
+                    </Button>
+                  )}
                 </CardFooter>
               </Card>
             </motion.div>
           ))}
         </div>
+        <h1 className="text-4xl font-bold text-center mb-1 mt-12 text-primary">We also offer payments on montly installments</h1>
+        
       </div>
     </motion.div>
   )
 }
 
 export default PricingPage
-

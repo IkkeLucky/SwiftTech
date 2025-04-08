@@ -65,7 +65,7 @@ const Portfolio = () => {
 
   return (
     <div className="py-16 bg-white dark:bg-gray-900">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-[1890px] mx-auto px-4 sm:px-6 lg:px-8">
         <h2 className="text-3xl font-semibold text-center mb-8 text-primary dark:text-white">Our Work</h2>
         <Masonry
           breakpointCols={breakpointColumnsObj}
